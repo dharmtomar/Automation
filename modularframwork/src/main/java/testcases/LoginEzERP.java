@@ -21,7 +21,7 @@ import org.testng.annotations.Test;
 public class LoginEzERP {
 	private static String sPropertyFile = "Configuration/config.properties";	
 	private static Properties oProperties;
-	//Test commit for git
+	//login erp test
 	//CommonElements celements=new CommonElements();
 	//public static WebDriver odriver;
 
