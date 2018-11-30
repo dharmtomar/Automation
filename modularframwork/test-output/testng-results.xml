@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29703" started-at="2018-11-28T03:39:06Z" finished-at="2018-11-28T03:39:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29703" started-at="2018-11-28T03:39:06Z" finished-at="2018-11-28T03:39:36Z">
+      <class name="testcases.AddmerchantTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.AddmerchantTest@19bb07ed]" name="setup" is-config="true" duration-ms="28444" started-at="2018-11-28T03:39:06Z" finished-at="2018-11-28T03:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:testcases.AddmerchantTest@19bb07ed]" name="test" duration-ms="118" started-at="2018-11-28T03:39:34Z" finished-at="2018-11-28T03:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.AddmerchantTest@19bb07ed]" name="teardown" is-config="true" duration-ms="770" started-at="2018-11-28T03:39:35Z" finished-at="2018-11-28T03:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.AddmerchantTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,1 @@
+{"uuid":"c7abdd81-3ba2-4749-8d12-81fffc1ce904","name":"testcases.AddmerchantTest","children":["4c66dc69-ed86-44e5-bd94-3d8437f0da0b"],"befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1543376375262,"stop":1543376376031}],"links":[],"start":1543376346344,"stop":1543376376144}
