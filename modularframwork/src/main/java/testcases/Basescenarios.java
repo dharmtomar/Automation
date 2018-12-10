@@ -1,8 +1,10 @@
 package testcases;
 
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -34,15 +36,17 @@ public class Basescenarios {
 			cdriver.openBrowserAndNavigatetoURL(oProperties.getProperty("baseurl"));
 			PFerplogin plogin=new PFerplogin(cdriver.getdriver());
 			plogin.loginERP(oProperties.getProperty("loginid"), oProperties.getProperty("password"));
+			cdriver.odriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		} catch (Exception e) {
 			
 			e.printStackTrace();
 		}
 	}
 	
-	@AfterClass(alwaysRun=true)
+	@AfterTest(alwaysRun=true)
 	public void teardown() {
 		cdriver.closeBrowser();
+		System.out.println("Close Browser");
 	}
 	
 }

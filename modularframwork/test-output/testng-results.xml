@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29703" started-at="2018-11-28T03:39:06Z" finished-at="2018-11-28T03:39:36Z">
+  <suite name="Suite" duration-ms="51053" started-at="2018-12-10T03:27:47Z" finished-at="2018-12-10T03:28:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29703" started-at="2018-11-28T03:39:06Z" finished-at="2018-11-28T03:39:36Z">
-      <class name="testcases.AddmerchantTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.AddmerchantTest@19bb07ed]" name="setup" is-config="true" duration-ms="28444" started-at="2018-11-28T03:39:06Z" finished-at="2018-11-28T03:39:34Z">
+    <test name="Test" duration-ms="51053" started-at="2018-12-10T03:27:47Z" finished-at="2018-12-10T03:28:38Z">
+      <class name="testcases.Add_Inventory_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Add_Inventory_Test@10e41621]" name="setup" is-config="true" duration-ms="37038" started-at="2018-12-10T03:27:47Z" finished-at="2018-12-10T03:28:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testcases.AddmerchantTest@19bb07ed]" name="test" duration-ms="118" started-at="2018-11-28T03:39:34Z" finished-at="2018-11-28T03:39:34Z">
+        <test-method status="PASS" signature="addinventory()[pri:0, instance:testcases.Add_Inventory_Test@10e41621]" name="addinventory" duration-ms="12225" started-at="2018-12-10T03:28:24Z" finished-at="2018-12-10T03:28:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.AddmerchantTest@19bb07ed]" name="teardown" is-config="true" duration-ms="770" started-at="2018-11-28T03:39:35Z" finished-at="2018-11-28T03:39:36Z">
+        </test-method> <!-- addinventory -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.Add_Inventory_Test@10e41621]" name="teardown" is-config="true" duration-ms="1212" started-at="2018-12-10T03:28:37Z" finished-at="2018-12-10T03:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
+      </class> <!-- testcases.Add_Inventory_Test -->
+      <class name="testcases.AddmerchantTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:testcases.AddmerchantTest@67a20f67]" name="test" duration-ms="4" started-at="2018-12-10T03:28:37Z" finished-at="2018-12-10T03:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
       </class> <!-- testcases.AddmerchantTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
